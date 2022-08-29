@@ -1,11 +1,11 @@
 const perguntaVestindoCamiseta = "Você está vestindo camiseta?"
 const perguntaVestindoRoupaPreta = "Você está vestindo roupa preta?"
-const perguntaSeSenteConfortávelHoje = "Você se sente confortável hoje?"
+const perguntaSeSenteConfortavelHoje = "Você se sente confortável hoje?"
 
-let respostaVestindoCamiseta = "Sim"
-let respostaVestindoRoupaPreta = "Sim"
-let respostaSeSenteConfortávelHoje = "Sim"
+let respostaVestindoCamiseta = prompt("Você está vestindo camiseta?")
+let respostaVestindoRoupaPreta = prompt("Você está vestindo roupa preta?")
+let respostaSeSenteConfortavelHoje = prompt("Você se sente confortável hoje?")
 
-console.log(respostaVestindoCamiseta)
-console.log(respostaVestindoRoupaPreta)
-console.log(respostaSeSenteConfortávelHoje)
+console.log(perguntaVestindoCamiseta, respostaVestindoCamiseta)
+console.log(perguntaVestindoRoupaPreta, respostaVestindoRoupaPreta)
+console.log(perguntaSeSenteConfortavelHoje, respostaSeSenteConfortavelHoje)
